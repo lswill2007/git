@@ -1,0 +1,7 @@
+import random
+
+
+fruits = ["苹果", "香蕉", "橙子", "草莓", "葡萄", "西瓜", "芒果", "菠萝"]
+
+fruit = random.choice(fruits)
+print(f"随机生成的水果是：{fruit}")
